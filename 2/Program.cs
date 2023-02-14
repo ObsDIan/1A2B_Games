@@ -31,10 +31,10 @@ namespace _2
 
                 for (int i = 0; i < 4; i++)
                 {
-                    int temp = rnd.Next(0, 9);
+                    int temp = rnd.Next(0, 10);
                     while (temp == math[0] || temp == math[1] || temp == math[2] || temp == math[3])
                     {
-                        temp= rnd.Next(0, 9);
+                        temp= rnd.Next(0, 10);
                     }
                     //for (int j = 0; j < i; j++)
                     //{

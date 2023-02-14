@@ -27,12 +27,12 @@ namespace Buildschoolex
 
                 for (int i = 0; i < 4; i++)
                 {
-                    int temp = rnd.Next(0, 9);
+                    int temp = rnd.Next(0, 10);
                     for (int j = 0; j < i; j++)
                     {
                         if (temp == math[j])
                         {
-                            temp = rnd.Next(0, 9);
+                            temp = rnd.Next(0, 10);
                             j = 0;
                         }
                     }
