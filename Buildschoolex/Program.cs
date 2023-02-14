@@ -37,7 +37,7 @@ namespace Buildschoolex
                         }
                     }
                     math[i] = temp;
-                    //Console.Write(math[i]);
+                    Console.Write(math[i]);
                 }
 
                 while (check == 0)
